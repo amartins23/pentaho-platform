@@ -333,6 +333,18 @@
       </modules>
     </profile>
     <profile>
+      <id>platform-slim</id>
+      <activation>
+        <property>
+          <name>!skipDefault</name>
+        </property>
+      </activation>
+      <modules>
+        <module>repository-slim</module>
+        <module>extensions-slim</module>
+      </modules>
+    </profile>
+    <profile>
       <id>platform-user-console</id>
       <activation>
         <property>
