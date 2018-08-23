@@ -31,12 +31,6 @@
       <version>${project.version}</version>
       <type>zip</type>
     </dependency>
-<!--    <dependency>
-      <groupId>pentaho</groupId>
-      <artifactId>pentaho-style</artifactId>
-      <version>${project.version}</version>
-      <type>war</type>
-    </dependency>-->
     <dependency>
       <groupId>pentaho</groupId>
       <artifactId>pentaho-war-slim</artifactId>
@@ -79,31 +73,6 @@
       <artifactId>postgresql</artifactId>
       <version>${postgresql.version}</version>
     </dependency>
-    <!--<dependency>
-      <groupId>wkhtmltopdf</groupId>
-      <artifactId>wkhtmltoimage-amd64</artifactId>
-      <version>${wkhtmltoimage.version}</version>
-      <type>tar.bz2</type>
-    </dependency>
-    <dependency>
-      <groupId>wkhtmltopdf</groupId>
-      <artifactId>wkhtmltoimage-OSX</artifactId>
-      <version>${wkhtmltoimage.version}</version>
-      <type>tar.bz2</type>
-    </dependency>
-    <dependency>
-      <groupId>wkhtmltopdf</groupId>
-      <artifactId>wkhtmltoimage-i386</artifactId>
-      <version>${wkhtmltoimage.version}</version>
-      <type>tar.bz2</type>
-    </dependency>
-    <dependency>
-      <groupId>wkhtmltopdf</groupId>
-      <artifactId>wkhtmltox</artifactId>
-      <version>${wkhtmltox.version}</version>
-      <type>exe</type>
-      <classifier>installer</classifier>
-    </dependency>-->
     <dependency>
       <groupId>cglib</groupId>
       <artifactId>cglib-nodep</artifactId>
